@@ -13,14 +13,7 @@ public class GUISwing {
         frame.add(label2);
         frame.add(passwordField);
         frame.add(button);
-        // JRadioButton r1 = new JRadioButton("Male"); 
-        // JRadioButton r2 = new JRadioButton("Female"); 
-        // ButtonGroup bg = new ButtonGroup(); 
-        // bg.add(r1); 
-        // bg.add(r2); 
-        // frame.add(r1);
-        // frame.add(r2);
-        frame.setLayout(new GridLayout());
+        frame.setLayout(new GridLayout(3, 2));
         frame.setSize(400, 400);
         frame.setVisible(true);
     }
